@@ -28,6 +28,22 @@ body {
   animation: lett-tracado 5s ease-in-out forwards 1s;
 }
 
+.container-cards {
+  width: 87%;
+  margin: auto;
+
+  display: flex;
+}
+
+.card {
+  width: 47%;
+  background-color: white;
+  border-radius: 10px;
+  word-wrap: break-word;
+  padding: 20px;
+  margin: 20px;
+}
+
 @keyframes lett-tracado {
   to {
     stroke-dashoffset: 0;
@@ -38,4 +54,23 @@ body {
   to {
     fill: #be253f;
   }
+}
+
+h1,
+h2 {
+  font-family: "Pacifico", cursive;
+  color: #be253f;
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-family: "Lato", sans-serif;
+  color: #484848;
+  font-size: 1em;
 }
